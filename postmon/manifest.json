@@ -1,0 +1,16 @@
+{
+  "name": "Postmon",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "description": "Busca de CEP via Postmon",
+  //"icons": { "128": "icon_128.png" },
+  "background": {
+    "scripts": ["script.js"]
+  },
+  "permissions": ["http://api.postmon.com.br/*", "http://code.jquery.com/jquery-2.0.0.min.js"],
+  "browser_action": {
+    "default_title": "Postmon",
+    //"default_icon": "icon_19.png",
+    "default_popup": "popup.html"
+  }
+}
