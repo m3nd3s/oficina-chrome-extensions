@@ -3,7 +3,6 @@ var postmon = {
     var $cep = $("#cep");
     var $endereco_tag = $("#endereco");
 
-    console.log($cep.val());
     $.ajax({
       url: "http://api.postmon.com.br/v1/cep/" + $cep.val(),
       type: "GET",
