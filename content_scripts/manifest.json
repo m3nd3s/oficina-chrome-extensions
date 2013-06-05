@@ -1,0 +1,11 @@
+{
+  "name": "Darkground",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "description": "",
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["script.js"]
+  }],
+  "permissions": ["http://*/*", "https://*/*"]
+}
